@@ -1,0 +1,143 @@
+.container__unicode {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+
+.unicode__title {
+    display: flex;
+    justify-content: center;
+    width: 1400px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 35px;
+}
+
+.img-left {
+    display: flex;
+    width: 700px;
+    height: 662px;
+    border-radius: 15px;
+    margin-right: 15px;
+    background-size: cover;
+}
+
+.unicode__img-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-bottom {
+    align-self: flex-end;
+}
+
+.img-right {
+    display: flex;
+    margin-bottom: 15px;
+    width: 480px;
+    height: 323px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+.img-bottom h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #fff;
+}
+
+.img__left-title-h2 {
+    margin: 0 54px 5px 54px;
+}
+
+.img__left-title-descr {
+    margin: 0 54px 60px 54px;
+}
+
+.img-bottom p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #fff;
+}
+
+.img__right-title-descr {
+    margin: 0 39px 35px 39px;
+}
+
+.img__right-title-h2 {
+    margin: 0 39px 5px 39px;
+}
+
+.footer__block {
+    display: flex;
+}
+
+.footer__title-h2 {
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 68px;
+    color: #000000;
+    margin: 32px 0 42px 0;
+}
+
+.footer__unicode p {
+    color: #000;
+    font-size: 24px;
+}
+
+.post {
+    width: 550px;
+}
+
+.post:nth-child(2) {
+    margin-left: 80px;
+}
+
+.post p {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #000;
+}
+
+.footer__img {
+    width: 100%;
+    height: 368px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid #000;
+}
+
+.post h2 {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 54px;
+    color: #000;
+}
+
+.link__posts {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 34px;
+    color: #3300FF;
+    text-decoration: none;
+}
